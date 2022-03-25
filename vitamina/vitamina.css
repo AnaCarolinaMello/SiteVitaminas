@@ -1,0 +1,102 @@
+
+*{margin: 0;
+padding: 0;}
+
+body{background-image: url("Fundo/fundo.png");
+background-repeat: no-repeat;
+background-size: cover;} 
+
+header{position: fixed;
+top: 0%;
+right: 0%;
+left: 0%;
+background-color: #EDF3F2;
+padding-bottom: 6px;
+padding-top: 6px;
+height: 70px;}
+
+#logo{float: left;
+height: 70px;
+width: 70px;
+margin-left: 15px;}
+
+.menu{font-family: Merriweath,Arial;
+font-weight: bold;
+display: inline-block;
+font-size: 23px;
+margin-left: 30px;
+margin-top: 20px;
+color: rgb(49, 49, 49);
+cursor: pointer;}
+
+.menu:hover{color: #1e7430;}
+
+#login{margin-left: 670px;
+background-color: #edf3f200;
+border-radius: 7px;
+color: #1A5527;
+border-color: #1A5527;
+border: solid;
+cursor: pointer;}
+
+#login:hover{background-color: #cecece57;}
+
+#singup{background-color: #1A5527;
+color: #EDF3F2;
+border: none;
+border-radius: 7px;
+padding: 10px 15px;
+cursor: pointer;}
+
+#singup:hover{background-color: #133d1d;}
+
+.botao{font-size: 18px;
+margin-right: 20px;
+text-align: center;
+padding: 8px 15px;
+margin-top: 6px;
+display: inline-block;}
+
+.ajustar{font-size: 18px;
+text-align: center;
+font-weight: bold;}
+
+.cont{width: 1370px;
+margin-bottom: 40px;
+margin-left: 75px;}
+
+.titulo{background-color: rgb(191, 255, 183);
+color: rgb(49, 49, 49);
+font-size: 35px;
+font-weight: bold;
+padding: 10px 5px 5px 15px;
+height: 50px;}
+
+.cont img{width: 1370px;
+box-sizing: border-box;
+border: 5px solid;
+border-color: rgb(117, 117, 117);
+border-top: none;}
+
+.des{color: #1d8133;}
+
+#comeco{margin-top: 120px;}
+
+footer{background-color: #EDF3F2;
+position: absolute;
+bottom: -700;
+right: 0%;
+left: 0%;
+padding-top: 6px;
+padding-bottom: 6px;}
+
+.redes{display: inline-block;
+margin-left: 30px;
+height: 70px;
+width: 70px;
+cursor: pointer;}
+
+#l{margin-left: 560px;}
+
+#r{margin-right: 560px;}
+
